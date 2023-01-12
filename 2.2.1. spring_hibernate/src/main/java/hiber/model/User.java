@@ -20,7 +20,7 @@ public class User {
 
    @MapsId
    @OneToOne
-   @JoinColumn(name = "id")
+   @JoinColumn(name = "PK_id_user_with_FK_car")
    private Car userCar;
 
    public User() {}
